@@ -12,14 +12,12 @@ using RolePlayCharacter;
 using EmotionalAppraisal.OCCModel;
 using SpreadsheetLight;
 using EmotionalAppraisal.DTOs;
-using IntegratedAuthoringTool; //Pendiente de revisar.
+using IntegratedAuthoringTool;
 using DocumentFormat.OpenXml.Bibliography;
 using FLS;
 
 namespace EmotionRegulationAsset
 {
-    //TODO: Ver la parta de la simulación con AuthoringToolkit y RoolPlayCharacter.
-    //TODO: Graficar cada una de las emociones.
 
     class Program
     {
