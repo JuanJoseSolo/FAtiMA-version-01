@@ -52,6 +52,15 @@ namespace EmotionRegulationAsset
             public string pathFile;
         }
 
+
+        /// <summary>
+        /// /jfsdfgjkdjfkgjdlfjñgds
+        /// </summary>
+        /// <param name="actionEvent"></param>
+        /// <returns></returns>
+
+
+
         #region Simulation Resources
         static (string relatedAction, string eventName) SplitActionName(string actionEvent)
         {
@@ -89,7 +98,8 @@ namespace EmotionRegulationAsset
         static DataFrame CreateDataframe(string agentName, PersonalityTraits personality, bool haveER)
         {
             DataFrame DF = new();
-            var origen = "C:/Users/JuanJoseAsus/source/repos/FAtiMA-ToolkitLastVersion/Assets/EmotionRegulation/EmotionRegulationAsset/Results/";
+
+            var origen = @"B:\usr\VSRepos\FAtiMA-Version-01\Assets\EmotionRegulation\EmotionRegulationAsset\Results\";
             var DominantPersonality = personality.DominantPersonality;
             var Dominant = string.Concat("_" + DominantPersonality);
 
@@ -479,8 +489,7 @@ namespace EmotionRegulationAsset
             {
                 ///New form graph
                 double[] X = ScottPlot.DataGen.Range(11);
-                var pth = "C:/Users/JuanJoseAsus/source/repos/FAtiMA-ToolkitLastVersion/Assets/" +
-                                            "EmotionRegulation/EmotionRegulationAsset/Results/Graphics/";
+                var pth = @"B:\usr\VSRepos\FAtiMA-Version-01\Assets\EmotionRegulation\EmotionRegulationAsset\Results\Graphics\";
 
 
                 var y = MoodPlot.ToArray();
